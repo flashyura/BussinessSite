@@ -111,5 +111,13 @@ namespace BussinessSite.AbstractLayer.Generic
         {
             m_сontext.SaveChanges();
         }
+
+        public void Dispose()
+        {
+            if (m_сontext != null)
+            {
+                m_сontext.Dispose();
+            }
+        }
     }
 }

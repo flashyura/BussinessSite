@@ -13,7 +13,7 @@ namespace BussinessSite.AbstractLayer.Interfaces
     /// </summary>
     /// <typeparam name="TModel">The type of the business object.</typeparam>
     /// <typeparam name="TIdType">The type of the identifier type.</typeparam>
-    public interface IManager<TModel, TIdType>
+    public interface IManager<TModel, TIdType> : IDisposable
         where TModel : BusinessObject<TIdType>
         where TIdType : struct
     {

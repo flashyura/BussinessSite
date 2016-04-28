@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Generic\DataRepositoryBase.cs" />
     <Compile Include="Generic\ManagerBase.cs" />
+    <Compile Include="Models\BSState.cs" />
+    <Compile Include="Interfaces\IBSDbSet.cs" />
     <Compile Include="Interfaces\IDataRepository.cs" />
     <Compile Include="Interfaces\IDataRepositoryFactory.cs" />
     <Compile Include="Interfaces\IDbContext.cs" />

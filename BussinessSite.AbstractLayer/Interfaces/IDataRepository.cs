@@ -12,7 +12,7 @@ namespace BussinessSite.AbstractLayer.Interfaces
     /// <typeparam name="TModel">The type of the model.</typeparam>
     /// <typeparam name="TIdType">The type of the identifier type.</typeparam>
     /// <seealso cref="System.IDisposable" />
-    public interface IDataRepository<TModel, TIdType> : IDisposable
+    public interface IDataRepository<TModel, TIdType>
     {
         /// <summary>
         /// Creates the specified item list.
